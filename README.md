@@ -15,11 +15,8 @@ This project is a complete **Clinic Booking System** implemented using **MySQL**
 - Appointment bookings
 - Medical records (diagnosis & prescriptions)
 
-It follows a relational structure with clearly defined relationships (1-to-1, 1-to-many) and includes constraints such as primary keys, foreign keys, NOT NULL, and UNIQUE fields.
+It follows a relational structure with clearly defined relationships and includes constraints such as primary keys, foreign keys, NOT NULL, and UNIQUE fields.
 
-The sample data uses realistic Kenyan names to reflect a local healthcare setup.
-
----
 
 ## ⚙️ How to Run / Set Up the Project
 
@@ -31,7 +28,7 @@ The sample data uses realistic Kenyan names to reflect a local healthcare setup.
 ### 🧩 Steps to Set Up
 
 1. Open **MySQL Workbench** or your preferred SQL tool.
-2. Copy and paste the contents of `ClinicBookingSystem.sql` into a new SQL tab.
+2. Put contents of `ClinicBookingSystem.sql` into a new SQL tab.
 3. Execute the script:
    - It will create a new database called `ClinicBookingSystem`
    - It will create all necessary tables with proper constraints
@@ -44,5 +41,7 @@ The sample data uses realistic Kenyan names to reflect a local healthcare setup.
 You can view the Entity Relationship Diagram (ERD) by importing the database into **MySQL Workbench**, then go to:
 
 > **Database > Reverse Engineer > Select ClinicBookingSystem**
+> ![image](https://github.com/user-attachments/assets/1ebbc05e-8141-4e6f-96b2-f0c50ac4e673)
+
 
 
